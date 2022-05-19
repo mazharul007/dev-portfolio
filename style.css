@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
 }
 h1{
     font-size: 50px;
@@ -9,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 #top-banner{
     background-image: url(images/top-banner.png);
@@ -16,6 +18,7 @@ section{
 }
 .half-width p{
     text-align: justify;
+    margin-bottom: 40px;
 }
 .half-width{
     width: 50%;
@@ -32,4 +35,11 @@ section{
     background-image:linear-gradient(orange,tomato) ;
     color: white;
     font-weight: 700;
+}
+
+
+#dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
